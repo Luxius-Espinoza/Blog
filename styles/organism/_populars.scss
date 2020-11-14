@@ -1,0 +1,28 @@
+
+/* ARTICULOS POPULARES */
+/* Seccion POPULARES */
+
+.body-main h2{
+    color: map-get($colors , f-blue2 );
+    margin: 20px 0;
+}
+
+.popular{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-popular{
+    width: 40%;
+}
+
+.article-popular h3{
+    color: map-get($colors , a-hover );
+}
+
+.article-popular p{
+    color: map-get($colors , f-black );
+    padding: 10px 0;
+}
