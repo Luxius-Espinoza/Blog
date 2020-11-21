@@ -1,0 +1,7 @@
+.flex{
+    display: flex;
+}
+
+.flex-column-2{
+    grid-template-columns: repeat(2,1fr);
+}

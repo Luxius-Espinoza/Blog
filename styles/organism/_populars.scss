@@ -16,6 +16,7 @@
 
 .article-popular{
     width: 40%;
+    padding-right: 10px;
 }
 
 .article-popular h3{
@@ -25,4 +26,9 @@
 .article-popular p{
     color: map-get($colors , f-black );
     padding: 10px 0;
+}
+
+.article-imagen img{
+    width: 100%;
+    display: block;
 }

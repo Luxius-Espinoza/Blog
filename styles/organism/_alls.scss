@@ -13,6 +13,11 @@
     justify-content: space-between;
 }
 
+.other-article img{
+    width: 100%;
+    display: block;
+}
+
 .other-article h3{
     color: map-get($colors , a-hover );
     @include font-h3(1.8rem,3rem,bold);

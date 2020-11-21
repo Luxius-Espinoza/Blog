@@ -1,16 +1,21 @@
 /* Otros articulos populares */
 
 .popular-2{
-    width: 300px;
     display: flex;
 }
 
 .article-popular2{
-    margin-right: 18px;
+    padding-right: 18px;
+}
+
+.article-popular2__pad{
+    padding-right: 0;
 }
 
 .article-popular2 img{
     padding-bottom: 10px;
+    width: 100%;
+    display: block;
 }
 
 .article-popular2 h3{
